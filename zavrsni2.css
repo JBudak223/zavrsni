@@ -1,0 +1,82 @@
+body {
+    background-color: #1c221f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#stol {
+    background-color: rgb(21, 142, 63); 
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    height: 600px;
+    border-radius: 200px;
+    border: 12px solid #5c3a21;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8) inset;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#dkarte, #jkarte {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    min-height: 200px;
+}
+
+img {
+    width: 135px;
+    height: 190px;
+    border-radius: 8px;
+    border: 0.8px solid #000000;
+    box-shadow: 2px 6px 12px rgba(0,0,0,0.5);
+}
+
+button {
+    margin: 5px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.1s, background-color 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#hit {
+    background-color: #d4ff4e;
+}
+#stay {
+    background-color: #4edfff;
+}
+#restart {
+    background-color: #ff5e5e;
+}
+
+#hit:active {
+    background-color: #a4d700;
+}
+#stay:active {
+    background-color: #00b5d9;
+}
+#restart:active {
+    background-color: #d13b3b;
+}
+
+#rezultati {
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
